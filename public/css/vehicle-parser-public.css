@@ -1,0 +1,264 @@
+
+
+
+.vehicle-parser {
+
+	text-align: center;
+
+	min-height: 80vh;
+
+	padding: 30px 0 40px;
+
+}
+
+
+.parser-bottom-controls {
+	position: relative;
+}
+.top-btn {
+
+	position: absolute;
+	right: 15px;
+	bottom: 38px;
+}
+
+.top-btn img {
+
+	width: 48px;
+	height: 48px;
+}
+
+
+.loader-image img {
+	width: 200px;
+	height: auto;
+}
+
+.vehicle-box-container {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-align: left;
+	overflow: hidden;
+}
+.totalCountShow {
+	min-height: 80px;
+}
+.totalCount {
+	margin: 40px 0 50px;
+	text-align: left;
+	font-size: 16px;
+	padding: 0 15px;
+}
+
+.vehicle-box {
+	display: inline-block;
+	
+	text-decoration: none!important;
+	color: #000!important;
+
+	border-bottom: 1px solid #fff;
+	height: 320px;
+	margin-bottom: 40px;
+	width: 100%;
+
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+
+	background-color: #fff;
+
+
+}
+.vehicle-box:hover {
+	border-bottom: 1px solid #aaaaaa;
+	background-color: #F9F9F9;
+}
+
+.vehicle-box__img {
+	width: 100%;
+	height: 145px;
+	object-fit:cover;
+}
+@media only screen and (max-width : 767px) {
+	.vehicle-box__img {
+		height: auto;
+	}
+	.vehicle-box {
+		height: auto;
+	}
+}
+
+.vehicle-descr {
+	padding: 15px 0;
+	border-bottom: 1px solid #aaaaaa;
+}
+
+
+.vehicle-descr__title {
+	font-family: 'Montserrat';
+	color: #232628;
+    overflow: hidden;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 700;
+    width: 100%;
+    height: 35px;
+}
+
+
+
+
+
+
+
+.vehicle-info {
+	padding-top: 15px;
+
+}
+
+.vehicle-info div {
+	display: inline-block;
+	width: 48%;
+	margin-bottom: 10px;
+	vertical-align: top;
+	line-height: 12px;
+}
+
+.vehicle-info div i {
+	color: #aaaaaa;
+	margin-right: 6px;
+	float: left;
+}
+.vehicle-info div span {
+	display: table-cell;
+}
+
+
+
+.vehicle-info div span {
+	color: #888;
+	font-size: 13px;
+}
+
+.avto-photo {
+	min-height: 150px;
+}
+
+.not-avto-photo {
+	text-align: center;
+	font-size: 20px;
+	line-height: 145px;
+	background-color: #ccc;
+}
+
+.not-avto-photo span {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+}
+
+
+
+
+
+
+/* Load more */
+.load-more{
+  margin-bottom: 40px;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.load-more:hover{
+  cursor: pointer;
+}
+
+
+@media only screen and (max-width : 767px) {
+	.load-more{
+	  width: 120px;
+	}
+}
+
+
+/* Finish */
+.finish{
+	margin-bottom: 40px;
+  	background: gray;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+
+/* more link */
+.more{
+  	color: blue;
+  	text-decoration: none;
+  	letter-spacing: 1px;
+  	font-size: 16px;
+}
+
+[v-cloak] {
+  display:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.filer-box {
+	overflow: hidden;
+	padding: 40px 0 10px;
+}
+
+
+.filer-box select {
+	opacity: 1;
+	visibility: visible;
+}
+
+
+
+
+
+.filer-box select {
+	width: 100%;
+	display: block;
+    padding: 14px 15px;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 700;
+    color: #000;
+    border:1px solid #000;
+    border-radius: 3px;
+    background-color: #fff;
+    text-decoration: none !important;
+    outline: none !important;
+    visibility: visible;
+}
+
+.filer-box .select {
+	position: relative;
+	margin-bottom: 30px;
+}
+
+.filer-box .title {
+
+	position: absolute;
+	top: -20px;
+	left: 0;
+	
+}
+
+.filer-box select:disabled {
+  color: #ccc;
+  border:1px solid #ccc;
+}
